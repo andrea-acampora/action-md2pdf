@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/andrea-acampora/action-md2pdf/compare/1.1.1...1.2.0) (2022-07-25)
+
+
+### Features
+
+* add node package ([2f1fe96](https://github.com/andrea-acampora/action-md2pdf/commit/2f1fe96a0c8545577cb48f925901bfb972ec4fe3))
+
 ## [1.1.1](https://github.com/andrea-acampora/action-md2pdf/compare/1.1.0...1.1.1) (2022-07-25)
 
 
