@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.3...1.0.4) (2022-07-25)
+
+
+### Bug Fixes
+
+* correct input variable name ([0e0e961](https://github.com/andrea-acampora/action-md2pdf/commit/0e0e9616fe8bc2c309c7114fa2e53c8782222404))
+
 ## [1.0.3](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.2...1.0.3) (2022-07-25)
 
 
