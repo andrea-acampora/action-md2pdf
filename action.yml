@@ -28,4 +28,4 @@ runs:
       run: cat ${{ inputs.file_dir }}/*.md > ${{ inputs.file_dir }}/output.md
     - name: Convert to PDF 
       shell: bash
-      run: npx pretty-markdown-pdf -i ${{ inputs.file_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf
+      run: npx pretty-markdown-pdf -i ${{ inputs.file_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf -c config.json
