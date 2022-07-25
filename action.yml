@@ -19,10 +19,14 @@ runs:
   steps:
     - name: Checkout
       uses: actions/checkout@v3.0.2
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 'lts/*'
     - name: Merge markdown files
       shell: bash
       run: cat ${{ inputs.file_dir }}/*.md > ${{ inputs.output_dir }}/output.md
-    - name: Convert 2 PDF with Pandoc 
-      uses: docker://pandoc/core:2.18
-      with:
-        args: --pdf-engine=xelatex --output=${{ inputs.output_dir }}/${{ inputs.output_file_name }} ${{ inputs.output_dir }}/output.md
+    - name: Convert to PDF 
+      run: |
+        npm i pretty-markdown-pdf
+        pretty-md-pdf -i ${{ inputs.output_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf
