@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/andrea-acampora/action-md2pdf/compare/1.2.0...1.2.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* add shell ([3c3842a](https://github.com/andrea-acampora/action-md2pdf/commit/3c3842ab166362dddc7cb9ccf2d8c84ee892635b))
+
 # [1.2.0](https://github.com/andrea-acampora/action-md2pdf/compare/1.1.1...1.2.0) (2022-07-25)
 
 
