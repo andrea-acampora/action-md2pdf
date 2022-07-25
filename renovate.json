@@ -6,5 +6,6 @@
       "matchPaths": ["action.yml"],
       "semanticCommitType": "fix"
     }
-  ]
+  ],
+  "automerge": true
 }
