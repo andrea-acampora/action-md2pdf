@@ -25,7 +25,4 @@ runs:
     - name: Convert 2 PDF with Pandoc 
       uses: docker://pandoc/core:2.9
       with:
-        args: >-
-          --standalone
-          --output=${{ inputs.output_dir }}/${{ inputs.output_name }}
-          ${{ inputs.output_dir }}/output.md
+        args: --output=${{ inputs.output_dir }}/${{ inputs.output_name }} ${{ inputs.output_dir }}/output.md
