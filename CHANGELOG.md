@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.0...1.1.0) (2022-07-25)
+
+
+### Features
+
+* add config file ([e40cc91](https://github.com/andrea-acampora/action-md2pdf/commit/e40cc91e16bc0c4edf7c877cb306703bae4186cd))
+
 # 1.0.0 (2022-07-25)
 
 
