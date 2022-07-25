@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.4...1.1.0) (2022-07-25)
+
+
+### Features
+
+* add pdf engine for pandoc ([7e54241](https://github.com/andrea-acampora/action-md2pdf/commit/7e54241c0df708bcef6c6ad340bce97e0cdde713))
+
 ## [1.0.4](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.3...1.0.4) (2022-07-25)
 
 
