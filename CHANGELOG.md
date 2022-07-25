@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/andrea-acampora/action-md2pdf/compare/1.1.0...1.1.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* update pandoc version ([3c65693](https://github.com/andrea-acampora/action-md2pdf/commit/3c65693c1966b67040ce20376f71c400d993cba7))
+
 # [1.1.0](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.4...1.1.0) (2022-07-25)
 
 
