@@ -27,6 +27,7 @@ runs:
       shell: bash
       run: cat ${{ inputs.file_dir }}/*.md > ${{ inputs.output_dir }}/output.md
     - name: Convert to PDF 
+      shell: bash
       run: |
         npm i pretty-markdown-pdf
         pretty-md-pdf -i ${{ inputs.output_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf
