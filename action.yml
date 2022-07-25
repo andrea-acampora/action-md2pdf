@@ -1,0 +1,31 @@
+name: 'md2pdf'
+description: 'Convert Markdown files to PDF'
+
+inputs:
+  file_dir:
+    description: "The path of the markdown files."
+    required: true
+  output_dir:
+    description: "The output path where you want to put the generated pdf."
+    required: false
+    default: out
+  output_file_name:
+    description: "The output file name"
+    required: false
+    default: output.pdf
+    
+runs-on: ubuntu-18.04
+  using: "composite"
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v3.0.2
+    - name: Merge markdown files
+      shell: bash
+      run: cat ${{ inputs.file_dir }}/*.md > ${{ inputs.output_dir }}/output.md
+    - name: Convert 2 PDF with Pandoc 
+    - uses: docker://pandoc/core:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --output=${{ inputs.output_dir }}/${{ inputs.output_name }}
+            ${{ inputs.output_dir }}/output.md
