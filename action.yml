@@ -23,9 +23,9 @@ runs:
       shell: bash
       run: cat ${{ inputs.file_dir }}/*.md > ${{ inputs.output_dir }}/output.md
     - name: Convert 2 PDF with Pandoc 
-    - uses: docker://pandoc/core:2.9
-        with:
-          args: >-
-            --standalone
-            --output=${{ inputs.output_dir }}/${{ inputs.output_name }}
-            ${{ inputs.output_dir }}/output.md
+      uses: docker://pandoc/core:2.9
+      with:
+        args: >-
+          --standalone
+          --output=${{ inputs.output_dir }}/${{ inputs.output_name }}
+          ${{ inputs.output_dir }}/output.md
