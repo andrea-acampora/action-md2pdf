@@ -29,5 +29,4 @@ runs:
     - name: Convert to PDF 
       shell: bash
       run: |
-        npm i pretty-markdown-pdf
-        pretty-md-pdf -i ${{ inputs.output_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf
+        npx pretty-md-pdf -i ${{ inputs.output_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf
