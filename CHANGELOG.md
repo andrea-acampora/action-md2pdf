@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.1...1.0.2) (2022-07-25)
+
+
+### Bug Fixes
+
+* correct indentation ([ea2af3f](https://github.com/andrea-acampora/action-md2pdf/commit/ea2af3f3679b738072c19a6864c486d0ccdb3d75))
+
 ## [1.0.1](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.0...1.0.1) (2022-07-25)
 
 
