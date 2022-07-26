@@ -4,7 +4,7 @@
     ],
     "outputDirectory": "",
     "outputDirectoryRelativePathFile": false,
-    "styles": [],
+    "styles": ["style.css"],
     "stylesRelativePathFile": false,
     "includeDefaultStyles": true,
     "highlight": true,
