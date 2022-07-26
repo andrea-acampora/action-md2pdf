@@ -8,7 +8,7 @@ inputs:
   output_dir:
     description: "The output path where you want to put the generated pdf."
     required: false
-    default: out
+    default: output
   output_file_name:
     description: "The output file name"
     required: false
