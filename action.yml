@@ -13,6 +13,11 @@ inputs:
     description: "The output file name"
     required: false
     default: output.pdf
+  style_path:
+    description: "The path of css stylsheet"
+    required: false
+    default:  style.css
+    
     
 runs:
   using: "composite"
@@ -28,4 +33,4 @@ runs:
       run: cat ${{ inputs.file_dir }}/*.md > ${{ inputs.file_dir }}/output.md
     - name: Convert to PDF 
       shell: bash
-      run: npx pretty-markdown-pdf -i ${{ inputs.file_dir }}/output.md -o ${{ inputs.output_dir }}/${{ inputs.output_file_name }} -t pdf -c doc/config/config.json
+      run: npx mdpdf ${{ inputs.file_dir }}/output.md ${{ inputs.output_dir }}/${{ inputs.output_file_name }} --style ${{ inputs.style_path}} 
