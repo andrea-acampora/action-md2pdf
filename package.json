@@ -2,7 +2,7 @@
   "name": "action-m2pdf",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "7.0.2",
+    "@semantic-release/exec": "7.0.3",
     "@semantic-release/git": "10.0.1"
   },
   "engines": {
