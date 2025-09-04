@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.23...1.0.24) (2025-09-04)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v5 ([#62](https://github.com/andrea-acampora/action-md2pdf/issues/62)) ([f3c495d](https://github.com/andrea-acampora/action-md2pdf/commit/f3c495de40890734125095821665644e7bf66ed7))
+
 ## [1.0.23](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.22...1.0.23) (2025-08-12)
 
 
