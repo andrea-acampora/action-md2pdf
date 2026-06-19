@@ -1,3 +1,10 @@
+## [1.0.31](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.30...1.0.31) (2026-06-19)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v7 ([#78](https://github.com/andrea-acampora/action-md2pdf/issues/78)) ([bf95138](https://github.com/andrea-acampora/action-md2pdf/commit/bf95138f9bf3cf54ba94bb3c308b5cd8a1d3121a))
+
 ## [1.0.30](https://github.com/andrea-acampora/action-md2pdf/compare/1.0.29...1.0.30) (2026-06-02)
 
 
